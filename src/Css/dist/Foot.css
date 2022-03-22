@@ -1,0 +1,24 @@
+.foot {
+  background-color: #6b5b95;
+  color: white;
+  margin-top: 0.5rem;
+  text-transform: capitalize;
+  padding: 0.5rem;
+}
+.foot img {
+  max-width: 10rem;
+  max-height: 10rem;
+}
+.foot ul li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.foot ul li i {
+  font-size: larger;
+  align-self: center;
+  margin-right: 0.5rem;
+}
+.foot ul li p, .foot ul li img {
+  align-self: center;
+}

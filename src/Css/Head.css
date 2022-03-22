@@ -1,0 +1,33 @@
+.head {
+  background-color: #6b5b95;
+}
+.head img {
+  max-width: 14rem;
+  max-height: 14rem;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  margin: auto;
+  animation: roll 2s linear infinite;
+  -webkit-animation: roll 2s linear infinite;
+}
+@-webkit-keyframes roll {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes roll {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.head h1, .head p {
+  text-transform: capitalize;
+  color: white;
+  margin: auto;
+}/*# sourceMappingURL=Head.css.map */
